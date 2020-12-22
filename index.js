@@ -17,6 +17,9 @@ const PORT = process.env.PORT || 5000
 // vierter schritt:
 // heroku create ins terminal 
 
+// fünfter schritt: 
+// bei heroku ins projekt und ganz unten den git code kopieren und ins terminal 
+
 app.use(express.static("public"))
 app.set("view engine", "ejs")
 
